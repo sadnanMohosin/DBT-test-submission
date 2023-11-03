@@ -1,0 +1,27 @@
+version: 2
+
+sources:
+  - name: bi_test
+    tables:
+      - name: orders
+        identifier: bi_test_orders
+      - name: vendors
+        identifier: bi_test_vendors
+
+
+models:
+  - name: q4
+    description: >
+      Answer to Q4 of take home test
+    meta:
+      owner: sadnan.cuet13@gmail.com
+    columns:
+      - year
+        description: Year of the GMV calculated
+      - country_name
+        description: Name of the country
+      - vendor_name
+        description: Name of vendor.
+      - total_gmv
+        description: GMV calculated for each country.
+    sql: models/takehome-test-submission-example/q4.sql
