@@ -22,6 +22,6 @@ models:
         description: Name of vendor.
       - total_gmv
         description: GMV calculated for each country.
-    sql: models/takehome-test-submission-example/q3.sql
+    sql: models/Submission/q3.sql
 
 

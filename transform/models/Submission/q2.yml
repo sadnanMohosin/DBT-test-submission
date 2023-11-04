@@ -22,6 +22,6 @@ models:
         description: Customer unique identifier 
       - total_gmv
         description: GMV calculated for each country.
-    sql: models/takehome-test-submission-example/q2.sql
+    sql: models/Submission/q2.sql
 
 
