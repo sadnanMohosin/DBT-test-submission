@@ -17,4 +17,4 @@ models:
         description: Name of country.
       - total_gmv
         description: GMV calculated for each country.
-    sql: models/takehome-test-submission-example/q1.sql
+    sql: models/Submission/q1.sql
